@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffff00">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+
+                style="@style/Xi"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/btn_weixin"
+            android:text="@string/btn_w"
+            android:drawableTop="@drawable/tab_menu_weixin"
+            style="@style/Btn"/>
+
+
+        <RadioButton
+            android:id="@+id/btn_tong"
+            android:text="@string/btn_tong"
+            android:drawableTop="@drawable/tab_menu_tong"
+            style="@style/Btn"/>
+
+
+        <RadioButton
+
+            android:id="@+id/btn_fa"
+            android:text="@string/btn_fa"
+            android:drawableTop="@drawable/tab_menu_faxian"
+            style="@style/Btn"/>
+
+        <RadioButton
+
+            android:id="@+id/btn_wo"
+            android:text="@string/btn_wo"
+            android:drawableTop="@drawable/tab_menu_wo"
+            style="@style/Btn"/>
+
+
+    </RadioGroup>
+
+
+
+
+
+</LinearLayout>
+
+

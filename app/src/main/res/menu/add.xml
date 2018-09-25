@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:icon ="@android:drawable/ic_menu_add"
+        android:title="@string/btn_add"
+        app:showAsAction="always">
+    <menu>
+
+        <item
+            android:icon ="@drawable/fa"
+            android:title="@string/btn_f"
+            app:showAsAction="never"/>
+
+        <item
+            android:icon="@drawable/zeng"
+            android:title="@string/btn_ti"
+            app:showAsAction="never"/>
+
+        <item
+            android:icon="@drawable/sao"
+            android:title="@string/btn_sao"
+            app:showAsAction="never"/>
+
+
+        <item
+            android:icon="@drawable/dai"
+            android:title="@string/btn_sh"
+            app:showAsAction="never"/>
+
+        <item
+            android:icon="@drawable/help"
+            android:title="@string/btn_bang"
+            app:showAsAction="never"/>
+    </menu>
+    </item>
+</menu>
